@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Work Portfolio | Margie Rose Belgica</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#14213d;--mute:#5b6477;--line:#e2e6ef;--brand:#1155cc;--head:#14305e;--ok:#0b7a43;--okbg:#dff5e8;--warn:#9a5b00;--warnbg:#fff0d1;--chipb:#dce8ff;--chipd:#d9f0e2}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1420;--card:#171e2e;--ink:#eaf0ff;--mute:#9aa6c0;--line:#27324a;--brand:#7fa8ff;--head:#223a69;--ok:#6fe0a1;--okbg:#12382a;--warn:#ffc266;--warnbg:#3a2c10;--chipb:#1e3560;--chipd:#143a2a}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);z-index:5}
+nav{max-width:1100px;margin:auto;padding:12px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+nav b{margin-right:auto}
+nav a{color:var(--mute);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--brand)}
+.hero{max-width:1100px;margin:auto;padding:56px 20px 24px}
+.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 8px;line-height:1.15}
+.hero p{color:var(--mute);max-width:680px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;max-width:1100px;margin:24px auto 0;padding:0 20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:28px;color:var(--brand)}
+.stat span{color:var(--mute);font-size:13px}
+section{max-width:1100px;margin:auto;padding:44px 20px 0}
+h2{font-size:26px;margin:0 0 6px}
+.sub{color:var(--mute);margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
+th{background:var(--head);color:#fff;text-align:left;padding:10px 12px;white-space:nowrap;font-weight:600}
+td{padding:9px 12px;border-top:1px solid var(--line);white-space:nowrap}
+td.wrap{white-space:normal}
+tr:hover td{background:color-mix(in srgb,var(--brand) 6%,transparent)}
+.pill{display:inline-block;padding:2px 10px;border-radius:99px;font-size:12px;font-weight:600}
+.brand{background:var(--chipb);color:var(--brand)}
+.dist{background:var(--chipd);color:var(--ok)}
+.good{background:var(--okbg);color:var(--ok)}
+.mid{background:var(--warnbg);color:var(--warn)}
+.tabs{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 14px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px}
+.tabs button.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:14px}
+.folders{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-bottom:18px}
+.folder::before{content:"📁 "}
+.files li{padding:6px 0;border-top:1px solid var(--line);font-size:14px}
+.files{list-style:none;margin:8px 0 0;padding:0}
+.note{font-size:13px;color:var(--mute);margin-top:10px}
+footer{max-width:1100px;margin:48px auto 0;padding:24px 20px 40px;color:var(--mute);font-size:13px;border-top:1px solid var(--line)}
+footer a{color:var(--brand)}
+</style>
+</head>
+<body>
+<header class="top"><nav><b>Margie Rose Belgica</b>
+<a href="#sourcing">Product Sourcing</a><a href="#accounts">Accounts Opened</a><a href="#pricelists">Pricelists</a><a href="#contacts">Supplier Contacts</a><a href="#monitoring">Financial Monitoring</a>
+<a href="index.html">Back to main site</a></nav></header>
+
+<div class="hero">
+<h1>Work Portfolio</h1>
+<p>Amazon FBA product sourcing, wholesale accounts I opened for clients, supplier pricelists, and the supplier contact database I built and maintain. Client names, emails and phone numbers are hidden for privacy.</p>
+</div>
+
+<section id="sourcing">
+<h2>1. Amazon Product Sourcing</h2>
+<p class="sub">Each product is checked for buy cost, Amazon fees, competition, monthly units sold, profit and ROI before anything is bought.</p>
+<div class="scroll"><table id="srcTable">
+<thead><tr><th>Supplier</th><th>Product</th><th>Buy cost</th><th>Case pack</th><th>Amazon fees</th><th>Sellers</th><th>Units / mo</th><th>Lowest price</th><th>Profit / unit</th><th>ROI</th><th>Margin</th></tr></thead><tbody></tbody></table></div>
+<p class="note">Sample rows from my sourcing sheet. Prep / overhead of $1 to $2 per unit is included in profit.</p>
+</section>
+
+<section id="accounts">
+<h2>2. Wholesale Supplier Accounts Opened</h2>
+<p class="sub">Accounts opened on behalf of clients with brands and distributors.</p>
+<div class="tabs" id="tabs"><button class="on" data-f="all">All</button><button data-f="Brand">Brands</button><button data-f="Distributor">Distributors</button></div>
+<div class="grid" id="accGrid"></div>
+</section>
+
+<section id="pricelists">
+<h2>3. Supplier Pricelists</h2>
+<p class="sub">Pricelists collected from each supplier and organized in shared Google Drive folders, one folder per supplier.</p>
+<div class="folders" id="folders"></div>
+<div class="card"><b>Example: Cajun Wholesale folder</b>
+<ul class="files" id="files"></ul></div>
+</section>
+
+<section id="contacts">
+<h2>4. Wholesale Suppliers' Contact Information</h2>
+<p class="sub">A searchable database of suppliers with network type, category and the contact channels available for each.</p>
+<div class="scroll"><table>
+<thead><tr><th>Supplier</th><th>Network</th><th>Category</th><th>Email</th><th>Phone</th><th>Address</th><th>Website</th></tr></thead><tbody id="conBody"></tbody></table></div>
+<p class="note">Contact details are hidden here. A check mark means the detail is on file in the full sheet.</p>
+</section>
+
+<section id="monitoring">
+<h2>5. Financial Monitoring</h2>
+<p class="sub">Google Sheets trackers I keep for each store: sales, expenses (COGS and fees), shipments to Amazon, and inventory movement. Order and shipment IDs are hidden.</p>
+
+<h3>Sales tracker</h3>
+<div class="stats" id="kpi" style="padding:0;margin:0 0 14px"></div>
+<div class="scroll"><table style="min-width:640px">
+<thead><tr><th>Date</th><th>Product</th><th>Qty</th><th>Gross sales</th><th>COGS</th><th>FBA fees</th><th>Net profit</th><th>ROI</th></tr></thead><tbody id="salesBody"></tbody></table></div>
+<p class="note">Sample orders from July 2026. August summary: $815.70 income, $392.21 COGS, $343.25 fees, $80.24 net profit.</p>
+
+<h3 style="margin-top:32px">Expenses: COGS per product</h3>
+<div class="scroll"><table style="min-width:760px">
+<thead><tr><th>Product</th><th>Buy cost / unit</th><th>Ship to prep</th><th>Ship to Amazon</th><th>Total shipping</th><th>Prep cost</th><th>COGS</th></tr></thead><tbody id="cogsBody"></tbody></table></div>
+
+<h3 style="margin-top:32px">Shipment tracker</h3>
+<div class="scroll"><table style="min-width:820px">
+<thead><tr><th>Shipment date</th><th>Amazon FC</th><th>Product</th><th>Units expected</th><th>Units shipped</th><th>Placement fees</th><th>Carrier cost</th><th>Total</th><th>Shipping / unit</th></tr></thead><tbody id="shipBody"></tbody></table></div>
+
+<h3 style="margin-top:32px">Inventory: units sold per month</h3>
+<div class="card" id="inv"></div>
+</section>
+
+<footer>© 2026 Margie Rose Belgica · Virtual Assistant &amp; Amazon Store Manager · <a href="mailto:margie.rose313@gmail.com">margie.rose313@gmail.com</a></footer>
+
+<script>
+var src=[
+["Cajun Wholesale","Cajun Power Garlic Sauce",2.05,1,4.35,2,50,11.20,4.80,119,43],
+["Cajun Wholesale","Parish White Rice",4.31,1,7.60,1,400,13.99,2.08,33,15],
+["Cajun Wholesale","Slap Ya Mama Cajun Seafood",2.71,1,6.07,1,200,9.95,1.17,25,12],
+["Cajun Wholesale","Boscoli Family Dirty Martini",3.56,1,7.49,2,100,13.30,2.25,49,17],
+["KeHE","Master of Mixes Sour Apple (3-pack)",11.61,3,14.10,1,50,30.99,5.28,90,17],
+["KeHE","Tiger Sauce Original Hot Sauce (3-pack)",9.39,3,10.15,1,139,22.80,3.26,64,14],
+["Cake Brands","LorAnn Pink Cotton Candy",3.50,1,3.36,1,210,9.99,3.13,57,31],
+["French Farm","Bacanha Strawberry Organic",10.95,1,12.16,4,292,24.94,1.83,14,7],
+["KeHE","The Devon Cream Company",6.01,1,5.82,3,200,13.46,1.63,20,12]];
+var acc=[["Starwest Botanicals","Brand"],["John Henry's Food Products","Brand"],["Cajun Wholesale","Distributor"],["Windy City Organics","Distributor"],["Streak Free USA","Brand"],["Indian Earth","Brand"],["Cake Brands USA","Distributor"],["Chrissanthie Cosmetics USA","Brand"],["Everyday Supply Co","Distributor"],["Grandpa Joe's Candy","Brand"],["Miss Jessie's","Brand"],["KeHE","Distributor"],["Cheri's Desert Harvest","Brand"],["French Farm","Brand"],["Lacaco","Distributor"],["Value Wholesale","Distributor"],["Webstaurant","Distributor"],["Petmate","Distributor"],["American Leash Works","Distributor"],["Kay Wholesale Deals","Distributor"],["Kole Imports","Distributor"],["Country Archer Wholesale","Distributor"],["Bargain Wholesale Inc","Distributor"],["Gourmet Wholesaler","Distributor"],["CR Discount","Distributor"],["Affirma Distributor","Distributor"],["Vapon","Brand"],["Nandansons","Distributor"],["Palletfly","Distributor"],["One With Nature","Brand"],["Buckleup","Distributor"]];
+var folders=["Zion Health","Windy City Organics","Wai Lana","Vapon","Value Wholesale","Streakfree USA","Starwest Botanicals","One with Nature","Nandason","Miss Jessie","Lacaco"];
+var files=["Customer Product Price List (.xls)","Ricks Zydeco Products, new items","Mama's French Fry Seasoning, new item","Lagnappe Cajun Sauce, new label","Cajun Crackerz, new items","Cajun Pop, new flavors","Charcoal Pallet Deal","Cajun Wholesale Flyer"];
+var con=[["Baby Mum-Mum","Brand","Baby",1,0,0,1],["Tee Three Therapy","Brand","Grocery",1,1,1,1],["Aegle Nutrition","Brand","Health &amp; Household",1,1,1,1],["Bingo Hair Care","Manufacturer","Beauty",0,1,1,1],["Wai Lana","Brand","Sports &amp; Outdoors",1,1,1,1],["PETLOU","Distributor","All categories",1,0,0,1],["Medicinal Foods","Brand","Health &amp; Household",1,1,1,1],["Smooth Viking","Brand","Beauty",1,1,0,1],["B&amp;R Classics","Distributor","All categories",1,1,1,1],["WA Imports","Distributor","All categories",1,1,0,1],["Louisiana Fish Fry","Brand","Grocery",1,1,0,1],["Castle Toy Inc","Distributor","Toys &amp; Games",1,1,1,1],["Chicago Importing","Distributor","All categories",1,1,1,1],["Howard Foods","Distributor","Grocery",1,0,1,1]];
+var $=function(i){return document.getElementById(i)};
+var tb=document.querySelector("#srcTable tbody"),sum=0;
+src.forEach(function(r){sum+=r[9];var c=r[9]>=30?"good":"mid";
+tb.insertAdjacentHTML("beforeend","<tr><td>"+r[0]+"</td><td class='wrap'>"+r[1]+"</td><td>$"+r[2].toFixed(2)+"</td><td>"+r[3]+"</td><td>$"+r[4].toFixed(2)+"</td><td>"+r[5]+"</td><td>"+r[6]+"</td><td>$"+r[7].toFixed(2)+"</td><td><b>$"+r[8].toFixed(2)+"</b></td><td><span class='pill "+c+"'>"+r[9]+"%</span></td><td>"+r[10]+"%</td></tr>")});
+function draw(f){$("accGrid").innerHTML=acc.filter(function(a){return f=="all"||a[1]==f}).map(function(a){return "<div class='tile'><span>"+a[0]+"</span><span class='pill "+(a[1]=="Brand"?"brand":"dist")+"'>"+a[1]+"</span></div>"}).join("")}
+draw("all");
+$("tabs").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+this.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");draw(b.dataset.f)});
+$("folders").innerHTML=folders.map(function(f){return "<div class='tile folder'>"+f+"</div>"}).join("");
+$("files").innerHTML=files.map(function(f){return "<li>"+f+"</li>"}).join("");
+var ck=function(v){return v?"✓":"–"};
+var m=function(n){return n==null?"–":"$"+n.toFixed(2)};
+var kpi=[["$1,974.98","All-time income"],["$954.76","COGS"],["$831.22","Amazon fees"],["$189.00","Net profit"]];
+$("kpi").innerHTML=kpi.map(function(k){return "<div class='stat'><b>"+k[0]+"</b><span>"+k[1]+"</span></div>"}).join("");
+var sales=[["7/22/2026","Aux Anysetiers du Roy Herbes",1,32.41,11.28,9.21,11.92,105.67],["7/23/2026","La Dalia Smoked Spanish Paprika",1,12.10,5.89,5.06,1.15,19.52],["7/24/2026","La Dalia Smoked Spanish Paprika",1,12.99,5.89,5.13,1.97,33.45],["7/26/2026","La Dalia Smoked Spanish Paprika",2,24.20,11.78,10.12,2.30,19.52],["8/9/2026","La Dalia Smoked Spanish Paprika",1,12.10,5.89,5.06,1.15,19.52]];
+$("salesBody").innerHTML=sales.map(function(r){return "<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td>"+r[2]+"</td><td>"+m(r[3])+"</td><td>"+m(r[4])+"</td><td>"+m(r[5])+"</td><td><b>"+m(r[6])+"</b></td><td><span class='pill "+(r[7]>=30?"good":"mid")+"'>"+r[7]+"%</span></td></tr>"}).join("");
+var cogs=[["Aux Anysetiers du Roy Herbes",10.80,null,.48,.48,.50,11.78],["La Dalia Smoked Spanish Paprika 2.47oz",3.91,null,.48,.48,.50,4.89],["Cajun Power Garlic Sauce 8oz",2.05,.34,.61,.95,.50,3.50],["Cajun Power Garlic Sauce 16oz",3.31,.94,null,.94,.50,4.75],["Cajun Power Garlic Sauce Spicy 12/16oz",3.31,.94,null,.94,.05,4.30],["Ragin Cajun Jalapeno Relish 12/15oz",5.34,.56,.48,1.04,.05,6.43],["Ragin Cajun Etouffee Sauce 12/16oz",5.21,.56,.48,1.04,.05,6.30],["Ragin Cajun Sweet &amp; Spicy Pickle Slices",5.34,.56,.48,1.04,.05,6.43],["Ragin Cajun 10 Bean Soup 12/16oz",4.11,.56,.48,1.04,.05,5.20],["Ragin Cajun Creole Shrimp 12/16oz",5.21,.56,.48,1.04,.05,6.30]];
+$("cogsBody").innerHTML=cogs.map(function(r){return "<tr><td>"+r[0]+"</td><td>"+m(r[1])+"</td><td>"+m(r[2])+"</td><td>"+m(r[3])+"</td><td>"+m(r[4])+"</td><td>"+m(r[5])+"</td><td><b>"+m(r[6])+"</b></td></tr>"}).join("");
+var ship=[["Jun 28, 2026","HIA1 (PA)","Aux Anysetiers / La Dalia",72,168,40.32,39.81,80.13,.48],["Jun 29, 2026","PBI3 (FL)","Cajun Power Garlic Sauce",120,120,28.80,44.98,73.78,.61],["Jul 6, 2026","PBI3 (FL)","La Dalia Smoked Paprika",528,528,126.72,67.47,194.19,.37],["Aug 7, 2026","AVP1","Cajun Power Garlic Sauce",36,36,null,25.12,25.12,.70],["Aug 7, 2026","FWA4","Cajun Power Garlic Sauce",72,72,null,50.24,50.24,.70],["Aug 7, 2026","LGB8","Cajun Power Garlic Sauce",36,36,null,30.40,30.40,.84],["Aug 7, 2026","RDU2","Cajun Power Garlic Sauce",108,108,null,75.37,75.37,.70],["Aug 7, 2026","IAH3","Cajun Power Garlic Sauce",108,108,null,37.17,37.17,.34]];
+$("shipBody").innerHTML=ship.map(function(r){return "<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td>"+r[2]+"</td><td>"+r[3]+"</td><td>"+r[4]+"</td><td>"+m(r[5])+"</td><td>"+m(r[6])+"</td><td><b>"+m(r[7])+"</b></td><td>"+m(r[8])+"</td></tr>"}).join("");
+var inv=[["La Dalia Smoked Spanish Paprika",100,64],["Cajun Power Garlic Sauce 8oz",1,3],["Cajun Power Garlic Sauce 16oz",0,1],["Aux Anysetiers du Roy Herbes",1,0]];
+$("inv").innerHTML="<div class='scroll' style='border:0'><table style='min-width:420px'><thead><tr><th>Product</th><th>July</th><th>August</th><th>Total</th></tr></thead><tbody>"+inv.map(function(r){return "<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td>"+r[2]+"</td><td><b>"+(r[1]+r[2])+"</b></td></tr>"}).join("")+"<tr><td><b>Total units sold</b></td><td><b>102</b></td><td><b>68</b></td><td><b>170</b></td></tr></tbody></table></div>";
+$("conBody").innerHTML=con.map(function(c){return "<tr><td>"+c[0]+"</td><td><span class='pill "+(c[1]=="Distributor"?"dist":"brand")+"'>"+c[1]+"</span></td><td>"+c[2]+"</td><td>"+ck(c[3])+"</td><td>"+ck(c[4])+"</td><td>"+ck(c[5])+"</td><td>"+ck(c[6])+"</td></tr>"}).join("");
+</script>
+</body>
+</html>
